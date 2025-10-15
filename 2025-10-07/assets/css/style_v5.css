@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-attachment: fixed;
+    background-image: url("/assets/img/background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.containerPrincipal {
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.containerTopo {
+    background-color: darkslategrey;
+    height: 50px;
+    left: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.containerConteudo {
+    background-color: pink;
+    display: flex;
+    flex-direction: row;
+    height: calc(100% - 100px);
+    left: 0;
+    padding: 0;
+    position: fixed;
+    top: 50px;
+    width: 100%;
+}
+.containerRodape {
+    background-color: floralwhite;
+    bottom: 0;
+    height: 50px;
+    left: 0;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+}
+.containerLogin {
+    align-items: center;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    width: 100%;
+}
+.sgp_card_login {
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  width: 400px;
+}
+.sgp_logo_vertical {
+  align-self: center;
+  background-color: transparent;
+  width: 50%;
+}

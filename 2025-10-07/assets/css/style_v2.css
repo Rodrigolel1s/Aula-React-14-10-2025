@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-attachment: fixed;
+    background-image: url("/assets/img/background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.containerPrincipal {
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.containerTopo {
+    background-color: darkslategrey;
+    height: 50px;
+    left: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.containerConteudo {
+    background-color: pink;
+    display: flex;
+    flex-direction: row;
+    height: calc(100% - 100px);
+    left: 0;
+    padding: 0;
+    position: fixed;
+    top: 50px;
+    width: 100%;
+}
+.containerRodape {
+    background-color: floralwhite;
+    bottom: 0;
+    height: 50px;
+    left: 0;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+}
